@@ -1,0 +1,31 @@
+{
+  "name": "adv-loader",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000a\u0000d\u0000v\u0000-\u0000l\u0000o\u0000a\u0000d\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llCorvinSll/adv-loader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llCorvinSll/adv-loader/issues"
+  },
+  "homepage": "https://github.com/llCorvinSll/adv-loader#readme",
+  "dependencies": {
+    "babel-core": "^6.24.0",
+    "babel-preset-es2017": "^6.22.0",
+    "es6-promise": "^4.1.0",
+    "i": "^0.3.5",
+    "npm": "^4.4.4",
+    "webpack": "^2.3.2",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.4.1"
+  }
+}

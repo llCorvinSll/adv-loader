@@ -1,0 +1,35 @@
+
+body {
+  background-color: gray;
+}
+
+.loader {
+  width: 30%;
+  display: inline-block;
+  position: relative;
+}
+
+.loader__splash {
+  width: 100%;
+  position: absolute;
+  z-index: 20;
+
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.loader__splash--hidden {
+  opacity: 0;
+}
+
+.loader__video {
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+
+
+}

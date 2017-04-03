@@ -67,7 +67,10 @@ function handleVAST(vast) {
       let files = vast.getElementsByTagName('MediaFile');
 
       if (files && files.length) {
-          let first_file = files[0];
+          let first_file = Array.from(files).find((media_file) => {
+            return media_file.getAttribute('type') === 'video/mp4';
+          });
+
           let video_url = extractCDATA(first_file);
 
           let type = first_file.getAttribute('type');
